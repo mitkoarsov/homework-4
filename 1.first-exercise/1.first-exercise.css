@@ -1,0 +1,111 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: rgba(0, 160, 255, 0.100);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 150px;
+    height: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buton1 {
+    background-color: rgb(60, 120, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgb(60, 120, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 30px 0 15px;
+}
+.buton1:hover {
+    background-color: white;
+    color: rgb(60, 120, 255);
+}
+
+.buton2 {
+    background-color: rgb(60, 120, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgb(60, 120, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0 15px;
+}
+.buton2:hover {
+    background-color: white;
+    color: rgb(58, 120, 255);
+}
+
+.buton3 {
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 30px;
+    color: rgb(60, 120, 255);
+    border: 1px solid rgb(60, 120, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0 15px;
+}
+.buton3:hover {
+    background-color:rgb(58, 120, 255);
+    color: white;
+}
+
+.buton4 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 30px;
+    color: rgb(58, 120, 255);
+    border: 1px solid rgb(60, 120, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0 15px;
+}
+.buton4:hover {
+    background-color:rgb(60, 120, 255);
+    color: white;
+}
+
+.buton5 {
+    background-color: rgb(60, 120, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgb(60, 120, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin: 15px 0 0 25px;
+    
+}
+.buton5:hover {
+    background-color: white;
+    color: rgb(60, 120, 255);
+}
